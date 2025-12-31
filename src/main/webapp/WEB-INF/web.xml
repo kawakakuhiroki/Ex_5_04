@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>InputSurvey</display-name>
+    <servlet-name>InputSurvey</servlet-name>
+    <servlet-class>work.InputSurvey</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InputSurvey</servlet-name>
+    <url-pattern>/InputSurvey</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SaveSurvey</display-name>
+    <servlet-name>SaveSurvey</servlet-name>
+    <servlet-class>work.SaveSurvey</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveSurvey</servlet-name>
+    <url-pattern>/SaveSurvey</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <description></description>
+    <display-name>ShowAllSurvey</display-name>
+    <servlet-name>ShowAllSurvey</servlet-name>
+    <servlet-class>work.ShowAllSurvey</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowAllSurvey</servlet-name>
+    <url-pattern>/ShowAllSurvey</url-pattern>
+  </servlet-mapping>
+</web-app>
