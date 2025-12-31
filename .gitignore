@@ -1,0 +1,11 @@
+# ===== Java build =====
+target/
+bin/
+
+# ===== Eclipse =====
+.classpath
+.project
+.settings/
+
+# ===== OS =====
+.DS_Store
